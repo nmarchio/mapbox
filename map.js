@@ -20,12 +20,12 @@ if (!mobile) {
   window.map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
 }
 
-map.on('zoomend', function() {
-  var zoom = map.getZoom();
-  if(zoom <= 10) {
-    setSpeed(.9);
-  }
-});
+// map.on('zoomend', function() {
+//  var zoom = map.getZoom();
+//  if(zoom <= 10) {
+//    setSpeed(.9);
+//  }
+//});
 
 function flyHandler(id, options) {
   var button = document.getElementById(id);
@@ -44,20 +44,20 @@ function flyHandler(id, options) {
 flyHandler('sierra-leone', {
   center: [-13.250978, 8.480201],
   zoom: 10,
-  speed: .9
+  speed: .7
 });
 flyHandler('liberia', {
   center: [-10.806036, 6.328368],
   zoom: 10,
-  speed: .9
+  speed: .7
 });
 flyHandler('haiti', {
   center: [-72.336652, 18.538995],
   zoom: 10,
-  speed: .9
+  speed: .7
 });
 flyHandler('nepal', {
   center: [85.344876, 27.699009],
   zoom: 10,
-  speed: .9
+  speed: .7
 });
