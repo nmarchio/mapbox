@@ -23,7 +23,7 @@ if (!mobile) {
 map.on('zoomend', function() {
   var zoom = map.getZoom();
   if(zoom <= 10) {
-    setSpeed(50);
+    setSpeed(.9);
   }
 });
 
