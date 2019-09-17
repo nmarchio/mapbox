@@ -41,22 +41,22 @@ function flyHandler(id, options) {
 }
 
 flyHandler('sierra-leone', {
-  center: [8.480201, -13.250978],
+  center: [-13.250978, 8.480201],
   zoom: 10,
   speed: 500
 });
 flyHandler('liberia', {
-  center: [6.328368, -10.806036],
+  center: [-10.806036, 6.328368],
   zoom: 10,
   speed: 500
 });
 flyHandler('haiti', {
-  center: [18.538995, -72.336652],
+  center: [-72.336652, 18.538995],
   zoom: 10,
   speed: 500
 });
 flyHandler('nepal', {
-  center: [27.699009, 85.344876],
+  center: [85.344876, 27.699009],
   zoom: 10,
   speed: 500
 });
