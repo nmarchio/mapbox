@@ -1,4 +1,4 @@
-// var mobile = document.documentElement.clientWidth <= 700;
+var mobile = document.documentElement.clientWidth <= 700;
                                                                                                  
 mapboxgl.accessToken = 'pk.eyJ1Ijoibm1hcmNoaTAiLCJhIjoiY2p6dTljeDhiMGRwcjNubnl2aXI0OThhYyJ9.4FdGkBJlOXMPRugyqiXrjg';
 window.map = new mapboxgl.Map({
