@@ -11,7 +11,7 @@ window.map = new mapboxgl.Map({
   hash: true
 });
 
-var sidebar = document.getElementById('sidebar');
+#var sidebar = document.getElementById('sidebar');
 if (!mobile) {
   window.map.addControl(new mapboxgl.NavigationControl());
   sidebar.className += " pin-bottomleft";
